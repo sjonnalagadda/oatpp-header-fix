@@ -26,7 +26,7 @@
 #ifndef oatpp_web_server_handler_AuthorizationHandler_hpp
 #define oatpp_web_server_handler_AuthorizationHandler_hpp
 
-#include <oatpp/web/protocol/http/incoming/Request.hpp>
+#include "oatpp/web/protocol/http/incoming/Request.hpp"
 #include "oatpp/web/protocol/http/Http.hpp"
 #include "oatpp/core/macro/codegen.hpp"
 #include "oatpp/core/data/mapping/type/Type.hpp"
