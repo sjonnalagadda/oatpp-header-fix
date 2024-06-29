@@ -25,7 +25,7 @@
 #ifndef oatpp_web_server_interceptor_ResponseInterceptor_hpp
 #define oatpp_web_server_interceptor_ResponseInterceptor_hpp
 
-#include "oatpp/web/protocol/http/incoming/Request.hpp"
+#include "oatpp/web/protocol/http/incoming/IncomingRequest.hpp"
 #include "oatpp/web/protocol/http/outgoing/Response.hpp"
 #include "oatpp/web/protocol/http/Http.hpp"
 

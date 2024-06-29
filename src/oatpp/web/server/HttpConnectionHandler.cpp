@@ -24,7 +24,7 @@
 
 #include "./HttpConnectionHandler.hpp"
 
-#include "oatpp/web/protocol/http/incoming/Request.hpp"
+#include "oatpp/web/protocol/http/incoming/IncomingRequest.hpp"
 #include "oatpp/web/protocol/http/Http.hpp"
 
 #include "oatpp/core/concurrency/Thread.hpp"

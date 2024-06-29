@@ -30,7 +30,7 @@
 #include "oatpp/web/server/handler/AuthorizationHandler.hpp"
 #include "oatpp/web/server/handler/ErrorHandler.hpp"
 #include "oatpp/web/server/handler/AuthorizationHandler.hpp"
-#include "oatpp/web/protocol/http/incoming/Response.hpp"
+#include "oatpp/web/protocol/http/incoming/IncomingResponse.hpp"
 #include "oatpp/web/protocol/http/outgoing/Request.hpp"
 #include "oatpp/web/protocol/http/outgoing/ResponseFactory.hpp"
 

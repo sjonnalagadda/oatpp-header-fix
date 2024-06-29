@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "ConnectionProvider.hpp"
+#include "VirtualClientConnectionProvider.hpp"
 
 namespace oatpp { namespace network { namespace virtual_ { namespace client {
 

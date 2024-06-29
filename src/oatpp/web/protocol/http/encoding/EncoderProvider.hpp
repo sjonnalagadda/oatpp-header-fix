@@ -25,7 +25,7 @@
 #ifndef oatpp_web_protocol_http_encoding_EncoderProvider_hpp
 #define oatpp_web_protocol_http_encoding_EncoderProvider_hpp
 
-#include "oatpp/core/data/buffer/Processor.hpp"
+#include "oatpp/core/data/buffer/BufferProcessor.hpp"
 #include "oatpp/core/Types.hpp"
 
 namespace oatpp { namespace web { namespace protocol { namespace http { namespace encoding {

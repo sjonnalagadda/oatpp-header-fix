@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "ObjectMapper.hpp"
+#include "JsonObjectMapper.hpp"
 
 namespace oatpp { namespace parser { namespace json { namespace mapping {
 

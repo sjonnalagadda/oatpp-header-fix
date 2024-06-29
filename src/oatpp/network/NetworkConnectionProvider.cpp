@@ -22,25 +22,11 @@
  *
  ***************************************************************************/
 
-#include "Executor.hpp"
+#include "./NetworkConnectionProvider.hpp"
 
-namespace oatpp { namespace orm {
-
-Executor::Executor()
-  : m_defaultTypeResolver(std::make_shared<data::mapping::TypeResolver>())
-{}
-
-std::shared_ptr<const data::mapping::TypeResolver> Executor::getDefaultTypeResolver() {
-  return m_defaultTypeResolver;
-}
-
-std::shared_ptr<QueryResult> Executor::execute(const oatpp::String& query,
-                                               const std::unordered_map<oatpp::String, oatpp::Void>& params,
-                                               const std::shared_ptr<const data::mapping::TypeResolver>& typeResolver,
-                                               const provider::ResourceHandle<Connection>& connection)
-{
-  const auto& qt = parseQueryTemplate(nullptr, query, ParamsTypeMap(), false);
-  return execute(qt, params, typeResolver, connection);
-}
-
+namespace oatpp { namespace network {
+  
+const char* const ConnectionProvider::PROPERTY_HOST = "host";
+const char* const ConnectionProvider::PROPERTY_PORT = "port";
+  
 }}

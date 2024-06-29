@@ -25,7 +25,7 @@
 #ifndef oatpp_orm_DbClient_hpp
 #define oatpp_orm_DbClient_hpp
 
-#include "Executor.hpp"
+#include "OrmExecutor.hpp"
 #include "Transaction.hpp"
 
 #include "oatpp/core/data/stream/Stream.hpp"

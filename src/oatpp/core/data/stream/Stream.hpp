@@ -28,7 +28,7 @@
 #include "oatpp/core/data/share/LazyStringMap.hpp"
 #include "oatpp/core/async/Coroutine.hpp"
 #include "oatpp/core/data/buffer/IOBuffer.hpp"
-#include "oatpp/core/data/buffer/Processor.hpp"
+#include "oatpp/core/data/buffer/BufferProcessor.hpp"
 
 #include "oatpp/core/IODefinitions.hpp"
 

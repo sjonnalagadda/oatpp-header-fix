@@ -29,7 +29,7 @@
 
 #include "oatpp/web/protocol/http/incoming/SimpleBodyDecoder.hpp"
 #include "oatpp/network/ConnectionPool.hpp"
-#include "oatpp/network/ConnectionProvider.hpp"
+#include "oatpp/network/NetworkConnectionProvider.hpp"
 
 namespace oatpp { namespace web { namespace client {
 

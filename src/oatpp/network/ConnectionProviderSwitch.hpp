@@ -25,7 +25,7 @@
 #ifndef oatpp_network_ConnectionProviderSwitch_hpp
 #define oatpp_network_ConnectionProviderSwitch_hpp
 
-#include "ConnectionProvider.hpp"
+#include "NetworkConnectionProvider.hpp"
 #include <mutex>
 
 namespace oatpp { namespace network {

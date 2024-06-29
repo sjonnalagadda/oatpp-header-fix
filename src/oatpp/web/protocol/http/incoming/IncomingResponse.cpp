@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "./Response.hpp"
+#include "./IncomingResponse.hpp"
 
 namespace oatpp { namespace web { namespace protocol { namespace http { namespace incoming {
 

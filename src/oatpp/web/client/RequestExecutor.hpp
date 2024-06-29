@@ -27,7 +27,7 @@
 
 #include "RetryPolicy.hpp"
 
-#include "oatpp/web/protocol/http/incoming/Response.hpp"
+#include "oatpp/web/protocol/http/incoming/IncomingResponse.hpp"
 #include "oatpp/web/protocol/http/outgoing/Body.hpp"
 #include "oatpp/web/protocol/http/Http.hpp"
 

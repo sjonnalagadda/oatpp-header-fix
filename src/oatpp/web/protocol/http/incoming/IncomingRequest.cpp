@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "Request.hpp"
+#include "IncomingRequest.hpp"
 
 namespace oatpp { namespace web { namespace protocol { namespace http { namespace incoming {
 

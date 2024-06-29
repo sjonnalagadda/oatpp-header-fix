@@ -25,7 +25,7 @@
 #ifndef oatpp_network_ConnectionPool_hpp
 #define oatpp_network_ConnectionPool_hpp
 
-#include "ConnectionProvider.hpp"
+#include "NetworkConnectionProvider.hpp"
 #include "oatpp/core/provider/Pool.hpp"
 
 namespace oatpp { namespace network {

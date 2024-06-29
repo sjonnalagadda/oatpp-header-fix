@@ -26,7 +26,7 @@
 #define oatpp_network_virtual__client_ConnectionProvider_hpp
 
 #include "oatpp/network/virtual_/Interface.hpp"
-#include "oatpp/network/ConnectionProvider.hpp"
+#include "oatpp/network/NetworkConnectionProvider.hpp"
 
 namespace oatpp { namespace network { namespace virtual_ { namespace client {
 

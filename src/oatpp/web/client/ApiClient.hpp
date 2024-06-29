@@ -27,7 +27,7 @@
 
 #include "./RequestExecutor.hpp"
 
-#include "oatpp/web/protocol/http/incoming/Response.hpp"
+#include "oatpp/web/protocol/http/incoming/IncomingResponse.hpp"
 #include "oatpp/web/protocol/http/outgoing/BufferBody.hpp"
 
 #include "oatpp/encoding/Base64.hpp"

@@ -27,7 +27,7 @@
 
 #include "MetricsChecker.hpp"
 
-#include "oatpp/network/ConnectionProvider.hpp"
+#include "oatpp/network/NetworkConnectionProvider.hpp"
 #include "oatpp/core/data/stream/Stream.hpp"
 
 #include <unordered_set>

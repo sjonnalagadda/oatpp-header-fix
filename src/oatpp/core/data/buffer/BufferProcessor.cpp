@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "Processor.hpp"
+#include "BufferProcessor.hpp"
 
 namespace oatpp { namespace data{ namespace buffer {
 

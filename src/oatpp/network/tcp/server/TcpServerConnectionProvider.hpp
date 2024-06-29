@@ -26,7 +26,7 @@
 #define oatpp_network_tcp_server_ConnectionProvider_hpp
 
 #include "oatpp/network/Address.hpp"
-#include "oatpp/network/ConnectionProvider.hpp"
+#include "oatpp/network/NetworkConnectionProvider.hpp"
 #include "oatpp/network/tcp/Connection.hpp"
 #include "oatpp/network/tcp/ConnectionConfigurer.hpp"
 

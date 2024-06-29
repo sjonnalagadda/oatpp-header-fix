@@ -27,7 +27,7 @@
 
 #include "oatpp/network/Address.hpp"
 
-#include "oatpp/network/ConnectionProvider.hpp"
+#include "oatpp/network/NetworkConnectionProvider.hpp"
 #include "oatpp/core/provider/Invalidator.hpp"
 #include "oatpp/core/Types.hpp"
 

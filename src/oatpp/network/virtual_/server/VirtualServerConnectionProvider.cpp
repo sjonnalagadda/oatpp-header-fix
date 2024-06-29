@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "ConnectionProvider.hpp"
+#include "VirtualServerConnectionProvider.hpp"
 
 #include <chrono>
 

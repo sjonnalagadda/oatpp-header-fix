@@ -22,7 +22,7 @@
  *
  ***************************************************************************/
 
-#include "Url.hpp"
+#include "EncodingUrl.hpp"
 
 #include "oatpp/core/data/stream/BufferStream.hpp"
 

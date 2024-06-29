@@ -26,7 +26,7 @@
 #define oatpp_network_Server_hpp
 
 #include "oatpp/network/ConnectionHandler.hpp"
-#include "oatpp/network/ConnectionProvider.hpp"
+#include "oatpp/network/NetworkConnectionProvider.hpp"
 
 #include "oatpp/core/Types.hpp"
 

@@ -25,7 +25,7 @@
 #ifndef oatpp_orm_SchemaMigration_hpp
 #define oatpp_orm_SchemaMigration_hpp
 
-#include "Executor.hpp"
+#include "OrmExecutor.hpp"
 
 namespace oatpp { namespace orm {
 
